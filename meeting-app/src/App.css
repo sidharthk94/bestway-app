@@ -1,0 +1,81 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Noto Sans Khojki", sans-serif;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #99c4f2d2;
+  min-height: 100vh;
+  width: 100vw;
+}
+.formInputs {
+  display: flex;
+  gap: 20px;
+}
+.inputs {
+  outline: none;
+  height: 20px;
+  width: 250px;
+}
+
+.submitButton {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 310px;
+}
+
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+.meeting-details{
+  border: solid 1px white;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  padding: 10px;
+
+}
+.labels{
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+.details-title{
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 900px) {
+  .formInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .submitButton {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+}
